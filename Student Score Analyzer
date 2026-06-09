@@ -1,0 +1,32 @@
+marks = [45, 67, 89, 56, 78, 90, 33]
+
+# 1. Total
+total = 0
+for m in marks:
+    total += m
+
+# 2. Average
+average = total / len(marks)
+
+# 3. Highest & Lowest
+highest = marks[0]
+lowest = marks[0]
+
+for m in marks:
+    if m > highest:
+        highest = m
+    if m < lowest:
+        lowest = m
+
+# 4. Above average count
+above_avg = 0
+for m in marks:
+    if m > average:
+        above_avg += 1
+
+# Output
+print("Total Marks =", total)
+print("Average Marks =", average)
+print("Highest Mark =", highest)
+print("Lowest Mark =", lowest)
+print("Students above average =", above_avg)
