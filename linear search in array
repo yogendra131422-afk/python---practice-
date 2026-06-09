@@ -1,0 +1,9 @@
+# linear search to check the value for the array 50 
+a = [10,3,400,50,20,30,31,32,33,34,35]
+
+key = 50 
+
+for x in a:
+    if x == key:
+        print("found")
+        break
