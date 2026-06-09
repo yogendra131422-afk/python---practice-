@@ -1,0 +1,60 @@
+#  array insertion insert the value 35 in index 3 
+
+a = [ 10, 20 ,30, 40 ,50 , None]
+
+index = 3
+
+value = 35
+
+for i in range(5, index , -1):
+    a[i] = a[ i-1 ]
+    
+a[index] = value
+
+print(a) 
+
+
+
+# second problem 
+ 
+a = [10,20,30,40,50,None]
+
+index = 2
+value = 25
+
+for i in range(5, index, -1):
+    a[i] = a[i-1]
+
+a[index] = value
+
+print(a)
+
+
+
+
+# array delection to delete a value form the array 
+a = [ 10 , 20 ,30 ,40 ,50 ]
+
+index = 2 
+
+for i in range(index,len(a)-1):
+    a[i] = a[i+1]
+
+a.pop()
+print(a)
+
+
+
+# array access 
+
+a = [10,20,30,40,50]
+
+print(a[2])
+
+
+
+# array update 
+
+a[2] = 35
+
+print(a)
