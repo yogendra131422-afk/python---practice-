@@ -1,0 +1,9 @@
+# count occurance in array 
+a = [ 10,20,30,40,20,30,20,20,20]
+
+count = 0 
+
+for x in a:
+    if x == 20:
+        count = count+1
+print(count)
