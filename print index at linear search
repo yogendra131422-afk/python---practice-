@@ -1,0 +1,9 @@
+# lineaar search to check the value print the index of that value 
+a = [10,3,400,50,20,30,31,32,33,34,35]
+
+key = 32
+
+for i in range(len(a)):
+    if a[i] == key:
+        print("found at index",i)
+        break
