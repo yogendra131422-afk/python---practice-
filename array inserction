@@ -1,0 +1,14 @@
+#  array insertion insert the value 35 in index 3 
+
+a = [ 10, 20 ,30, 40 ,50 , None]
+
+index = 3
+
+value = 35
+
+for i in range(5, index , -1):
+    a[i] = a[ i-1 ]
+    
+a[index] = value
+
+print(a) 
