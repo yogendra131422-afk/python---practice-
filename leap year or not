@@ -1,0 +1,8 @@
+# to find lear year or not 
+
+a = int(input("enter a number:"))
+
+if a % 4:
+    print("it is a leap year")
+else:
+    print("it is a not a lear year")
