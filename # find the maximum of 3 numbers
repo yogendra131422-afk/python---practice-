@@ -1,0 +1,12 @@
+# find the maximum of 3 numbers
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+c = int(input("enter a number:"))
+
+if a > b and a > c:
+    print("a is bigger number=",a)
+elif b > a and b > c:
+    print("b is bigger number=",b)
+else:
+    print("c is bigger number=",c)
+    
