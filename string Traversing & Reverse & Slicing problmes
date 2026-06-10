@@ -1,0 +1,30 @@
+# string Traversing & Reverse & Slicing problmes 
+
+a = "yogendra" 
+
+for i in a:                # to print a string charcter i line by line
+    print(i)
+
+count = 0                  # to print charcters in single line      
+
+for i in a:
+    count = count + 1
+   
+ 
+print(a)
+
+print(a[::2])               # using slicing print alterative charcter 
+
+
+for x in range(len(a)-1,-1,-1):      
+    print(a[x])              # string reverse in line by line 
+
+    
+for x in range(len(a)-1,-1,-1):
+     print(a[x], end="")       # string reverse in single line 
+
+
+
+
+
+    
