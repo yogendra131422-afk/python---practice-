@@ -1,0 +1,21 @@
+ # string indexing & length concept problmes 
+
+a = "yogendra" 
+
+print(a[0])                 # print first charcter 
+
+print(a[-1])                # print last charcter 
+
+print(a[1])                 # print secod charcter 
+
+print(a[len(a)//2])          # print middle charcter 
+
+print(len(a))               # print strting length 
+
+
+count = 0                   # without using length find length 
+
+for x in a:
+    count = count + 1
+    
+print(count)                   
