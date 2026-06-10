@@ -1,0 +1,12 @@
+#  dsa toggle case problem 
+
+s = "pYtHon"
+
+result = ""
+
+for ch in s:
+    if ch.isupper():
+        result = result + ch.lower()
+    else:
+        result = result + ch.upper()
+print(result)
