@@ -1,0 +1,15 @@
+# string Concatenation & Repetition 
+
+a = "chatgpt"
+b = "google"
+
+print(a + b)               # without space to combine a and b 
+
+print(a + " " + b)         # with spaces to combine a and b 
+
+print("Hi" * 5)            # to repeat the strting charcter 
+
+print("*" * 10)            # to use operator print 10 stars 
+
+
+
