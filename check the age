@@ -1,0 +1,8 @@
+# check the age , this person are eligible for vote or not
+
+a = 19
+
+if a >= 18:
+    print("eligible for vote")
+else:
+    print("your not eligible for vote")
