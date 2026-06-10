@@ -1,0 +1,10 @@
+# Palindrome Check
+s = "madam"                  
+
+if s == s[::-1]:
+    print("it is a palindrome number")
+    
+else:
+    print("it is not a palindrome number")
+
+
