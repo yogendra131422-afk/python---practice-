@@ -1,0 +1,51 @@
+# strting functions problems
+
+
+# Q24 - upper()
+
+s = "google"
+
+print(s.upper())
+
+
+# Q25 - lower()
+
+s = "GOOGLE"
+
+print(s.lower())
+
+
+# Q26 - replace()
+
+s = "I love Python"
+
+print(s.replace("Python", "Java"))
+
+
+# Q27 - count()
+
+s = "banana"
+
+print(s.count("a"))
+
+
+# Q28 - find()
+
+s = "banana"
+
+print(s.find("n"))
+
+
+# Q29 - strip()
+
+s = "   helloworld   "
+
+print(s.strip())
+
+
+# Q30 - split()
+
+s = "I love Python"
+
+print(s.split())
+
