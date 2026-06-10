@@ -1,0 +1,17 @@
+# Write a program to print grade based on marks:
+ # 90+ → A
+ # 70–89 → B
+ # 50–69 → C
+# below 50 → Fail
+
+marks = int(input("enter the marks:"))
+
+if marks >= 600:
+    print("first class")
+elif marks >= 500:
+    print("second class")
+elif marks >= 400:
+    print("third class")
+else:
+    print("fail")
+        
