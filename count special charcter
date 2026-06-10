@@ -1,0 +1,9 @@
+s = "hello@123!"
+
+count = 0
+
+for ch in s:
+    if not ch.isalnum() and ch != " ":
+        count = count + 1
+
+print("special characters =",count)
