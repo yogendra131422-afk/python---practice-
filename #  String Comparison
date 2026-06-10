@@ -1,0 +1,8 @@
+a = "python"
+b = "python" 
+
+if a >= b:
+    print("equal")
+else:
+    print("not equal")
+
