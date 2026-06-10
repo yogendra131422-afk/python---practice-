@@ -146,7 +146,23 @@
 
 ✅ split()
 
-✅ join()
+✅ join()  
+
+✅ Reverse a String
+
+✅ Palindrome Check
+
+✅ Count Vowels
+
+✅ Count Consonants
+
+✅ Count Digits
+
+✅ Count Spaces
+
+✅ Count Special Characters
+
+✅ Toggle Case
 
 ---
 
@@ -227,3 +243,13 @@ String
 ✅ Repetition
 
 ✅  strting functions upper(), lower(), replace(), count(), find(), strip(), split(), join()
+
+✅ Reverse a String
+✅ Palindrome Check
+
+✅ Count Vowels
+✅ Count Consonants
+✅ Count Digits
+✅ Count Spaces
+✅ Count Special Characters
+✅ Toggle Case
