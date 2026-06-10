@@ -1,0 +1,16 @@
+# string Reverse & Slicing problmes 
+
+a = "yogendra"
+
+print(a[::-1])            # to reverese the strig with using slicing 
+
+print(a[:3])              # to print starting three values 
+
+print(a[-3:])             # to print last three characters of string 
+
+print(a[::2])             # to print even index charcters 
+
+print(a[1::2])            # to print odd index charcters 
+
+
+
