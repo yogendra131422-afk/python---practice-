@@ -1,0 +1,36 @@
+# sets : it means its unordered & to remove duplicate values & and there is no index and it can add and remove the elements called as sets 
+# examples 
+
+a = { 10,10,10,20,30,40,50,60,70,80}
+
+print(a)
+
+# to create  a set in the list 
+
+a = [ 10,20,30,40,50,30,20,30,30,30]
+
+s = set(a)
+
+print(s)
+
+# to create a tuple in the list 
+
+s = tuple(a)   
+
+print(s)
+
+# to create a list in the tuple & sets
+
+a = ( 10,20,30,40,50)
+
+s = list(a)
+
+print(s)
+
+# to create a list in the sets
+
+a = { 10,20,30,40,50}
+
+s = list(a)
+
+print(s)
