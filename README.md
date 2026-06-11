@@ -93,6 +93,80 @@
 
 ✅ Average of List
 
+
+Tuples
+
+✅ Tuple Creation
+
+✅ Tuple Indexing
+
+✅ Tuple Traversing
+
+✅ Tuple Length
+
+✅ count()
+
+✅ index()
+
+✅ Tuple Packing
+
+✅ Tuple Unpacking
+
+✅ Tuple Practice Problems
+
+✅ Sum
+
+✅ Maximum
+
+✅ Even Count
+
+✅ Loop Traversal
+
+🟢 Sets
+
+✅ Set Creation
+
+✅ Empty Set (set())
+
+✅ Unique Elements Concept
+
+✅ No Duplicates Property
+
+✅ Unordered Nature
+
+✅ add()
+
+✅ update()
+
+✅ remove()
+
+✅ discard()
+
+✅ pop()
+
+✅ clear()
+
+✅ len()
+
+✅ Membership (in)
+
+✅ Traversing Sets
+
+✅ Union (|)
+
+✅ Intersection (&)
+
+✅ Difference (-)
+
+✅ Symmetric Difference (^)
+
+✅ Duplicate Removal Using Set
+
+✅ Common Elements Finding
+
+✅ Unique Count Problems
+
+
 ---
 
 ## Strings
@@ -170,11 +244,7 @@
 
 ⬜ Functions
 
-⬜ Tuples
-
 ⬜ Dictionaries
-
-⬜ Sets
 
 ⬜ File Handling
 
@@ -188,7 +258,7 @@
 
 
 
-⬜ DSA with Python
+ DSA with Python
 
 ✅ DSA Introduction
 ✅ Algorithms
