@@ -1,0 +1,15 @@
+# find the list avaerage & sum & sub
+
+a = [10, 20, 30, 40, 50]
+
+sum = 0  
+
+for x in a :
+    sum = sum + x 
+print("sum=",sum)
+average = sum / len(a)
+print("average=",average)
+mod = sum // len(a)
+print("div=",div)
+sub = sum - average 
+print(sub)
