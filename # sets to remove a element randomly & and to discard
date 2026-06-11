@@ -1,0 +1,23 @@
+# sets to remove a element randomly & and to discard 
+
+s = {10,20,30,40}
+
+s.pop()                 # to remove a element 
+
+print(s)
+
+s.discard(100)         # too discard a element 
+
+print(s)
+
+s.clear()              # to clear a element
+
+print(s)
+
+print(len(s))
+
+a = { 10,20,30} 
+
+print(20 in a)         # check the number present or not 
+
+print(100 in a)        # check the number present or not
