@@ -1,0 +1,13 @@
+# to find the minimum element on the list 
+
+
+a = [10,20,30,40,50]
+
+minimum = a[0]
+
+
+for x in a:
+    if x < minimum:
+        minimum = x
+
+print(minimum)
