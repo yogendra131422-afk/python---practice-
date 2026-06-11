@@ -1,0 +1,16 @@
+# sets : update a element & remove a element 
+# update a element on the sets 
+
+a = {10,20,30}
+
+a.update([40,50,60])
+
+print(a)
+
+# removing a elements of the sets 
+
+a =  { 10,20,30,40}
+
+a.remove(20)
+
+print(a)
