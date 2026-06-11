@@ -1,0 +1,8 @@
+# find the sum of the array  
+a = [10,20,30,40,50]
+
+sum = 0
+
+for x in a:
+    sum = sum + x
+print(sum)
