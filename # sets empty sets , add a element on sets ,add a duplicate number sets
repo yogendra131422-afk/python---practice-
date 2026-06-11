@@ -1,0 +1,20 @@
+# sets empty sets , add a element on sets ,add a duplicate number sets  
+s = {}
+
+print(type(s))        
+
+s = set()
+
+print(type(s))
+
+s = { 10,20,30}     # add a element on sets 
+
+s.add(40)
+
+print(s)
+
+s = { 10,20,30}     # add a duplicate element on the sets
+
+s.add(20)
+
+print(s)
