@@ -1,0 +1,10 @@
+# find the maximum value in the tuple
+
+t = (15, 8, 25, 40, 12) 
+
+maximum = 0
+
+for x in t:
+    if x > maximum:
+        maximum = x
+print("maximum=",maximum)
