@@ -1,0 +1,11 @@
+# to find the maxium element on the list
+a = [10,20,30,40,50]
+
+maximum = a[0]
+
+
+for x in a:
+    if x > maximum:
+        maximum = x
+
+print(maximum)
