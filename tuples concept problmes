@@ -1,0 +1,11 @@
+# tuples concept problmes today : we can't change the data in the tuple is called tuple .
+
+t = (10, 20, 30, 40)     # sum of all tuples 
+
+sum = 0 
+
+for x in t:
+    sum = sum + x
+   
+print("sum=",sum)
+
