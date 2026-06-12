@@ -240,6 +240,8 @@ Tuples
 
 
 
+
+
 🟩 Functions - Completed
 
 
@@ -253,6 +255,7 @@ Tuples
 
 🟩 Function Execution Flow
 
+
 🟩 Parameters
 
 🟩 Arguments
@@ -262,6 +265,7 @@ Tuples
 🟩 Multiple Parameter Functions
 
 🟩 Parameter vs Argument
+
 
 🟩 Return Statement
 
@@ -281,19 +285,22 @@ Tuples
 
 🟩 Return Output Prediction Practice
 
+
+🟩 Local Variables
+
+🟩 Global Variables
+
+🟩 Variable Scope
+
+🟩 Default Arguments
+
+🟩 Positional Arguments
+
+🟩 Keyword Arguments
+
+
+
 ⬜ Functions - Not Completed
-
-⬜ Local Variables
-
-⬜ Global Variables
-
-⬜ Variable Scope
-
-⬜ Default Arguments
-
-⬜ Positional Arguments
-
-⬜ Keyword Arguments
 
 ⬜ Arbitrary Arguments (*args)
 
