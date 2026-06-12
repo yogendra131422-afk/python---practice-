@@ -1,0 +1,54 @@
+# arguments 
+
+# string arguments & interger argument & float argument & variable as argument 
+
+
+# ex:-
+
+def yogi(name):
+    print("hello",name)
+    
+yogi("rani")
+
+
+# ex: 
+
+def chatgpt(name):
+    print("hey",name)
+    
+chatgpt("chatgpt")
+
+# integer argument 
+
+
+# ex :
+
+def cube(num):
+    print("cube=",num*num*num)
+    
+cube(9)
+
+# another example square 
+
+def square(num):
+    print("square=",num*num)
+
+square(2)
+
+# float argument 
+
+def area(radius):
+    print(3.14*radius*radius)
+
+area(2)
+
+
+# variable as argument 
+
+
+x = 10 
+
+def sqaure(num):
+    print("sqaure=",num*num)
+
+sqaure(x)
