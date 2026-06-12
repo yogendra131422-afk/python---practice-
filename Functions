@@ -1,0 +1,19 @@
+# Functions basics 
+# to create a function and to calling a function 
+
+def google():                                     #  to create a function 
+    print("amazon")
+
+google()                                          # to calling a function 
+google()
+
+
+
+def star():                                                #   to create a 5 r * 5 c star 
+    print("*****")
+
+star()
+star()
+star()
+star()
+star()
