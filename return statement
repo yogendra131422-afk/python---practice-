@@ -1,0 +1,28 @@
+ # return statement , use return statement 
+# ex:-
+def give_ten():
+    return 10
+
+print(give_ten())
+
+# ex:- 
+def square(num):
+    result = num * num 
+    return result
+    
+x = square(10)
+print(x)
+
+# ex :- 
+def cube(num):
+    result = num* num*num
+    return result
+x = cube(10)
+print(x)
+
+# ex :-
+
+def add(num):
+    return a ,b 
+
+print(20+30)
