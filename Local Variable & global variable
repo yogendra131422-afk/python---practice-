@@ -1,0 +1,58 @@
+# Local Variable & global variable 
+# Local Variable
+
+def show_age():
+    age = 21
+    print(age)
+
+show_age()
+
+# use global variable 
+
+age = 22
+
+def show_age():
+    print(age)
+
+show_age()
+
+# use local variable 
+def show_name():
+    name = "yogi"
+    print(name)
+    
+show_name()
+
+#  use global variable 
+
+name = "chatgpt"
+
+def show_name():
+    print(name)
+
+show_name()
+
+# Local vs Global (both use local and global variable)
+
+x = 20
+
+def show_age():
+    age = 21
+    print(age)
+
+show_age()
+
+print(x)
+
+# Local vs Global (both use local and global variable)
+    
+
+name = "yogendra"
+
+def show_name():
+    name = "yogi"
+    print(name)
+    
+show_name()
+
+print(name)
