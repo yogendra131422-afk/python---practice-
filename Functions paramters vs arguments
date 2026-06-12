@@ -1,0 +1,97 @@
+## Functions paramters vs arguments & single parameter ,multi paramter & three parameter
+# what is paramters : paramters means def functions inside names and values like a ,b etc ,
+# what is arguments : arguments means after the creating fuctions ,to substitue values or something etc ,called as arguments 
+
+# ex:-
+
+def chatgpt(name):            # name is called parameter 
+    print(name)
+chatgpt("yogi")               # yogi is called argument 
+
+# ex 
+
+def square(num):
+    print(num*num)
+square(5)
+
+# ex 
+
+def cube(num):
+    print(num*num*num)
+square(25)
+
+# ex 
+
+def student(name):  
+     print("student=",name)
+student("ravi")
+student("raju")
+student("raghu")
+
+# multiple parameters 
+
+def add(a,b):
+    print(a+b)
+add(1,2)
+add(2,3)
+add(4,5)
+
+
+# three paramter 
+
+def details(name ,age ,city):
+    print(name)
+    print(age)
+    print(city)
+details("raju",25,"kadapa")
+
+
+                                                                    & single parameter ,multi paramter & three parameter
+# what is paramters : paramters means def functions inside names and values like a ,b etc ,
+# what is arguments : arguments means after the creating fuctions ,to substitue values or something etc ,called as arguments 
+
+# ex:-
+
+def chatgpt(name):            # name is called parameter 
+    print(name)
+chatgpt("yogi")               # yogi is called argument 
+
+# ex 
+
+def square(num):
+    print(num*num)
+square(5)
+
+# ex 
+
+def cube(num):
+    print(num*num*num)
+square(25)
+
+# ex 
+
+def student(name):  
+     print("student=",name)
+student("ravi")
+student("raju")
+student("raghu")
+
+# multiple parameters 
+
+def add(a,b):
+    print(a+b)
+add(1,2)
+add(2,3)
+add(4,5)
+
+
+# three paramter 
+
+def details(name ,age ,city):
+    print(name)
+    print(age)
+    print(city)
+details("raju",25,"kadapa")
+
+
+                                                                   
