@@ -238,11 +238,87 @@ Tuples
 
 ✅ Toggle Case
 
+
+
+🟩 Functions - Completed
+
+
+🟩 What is a Function?
+
+🟩 Why Functions are Used
+
+🟩 Function Definition (def)
+
+🟩 Function Calling
+
+🟩 Function Execution Flow
+
+🟩 Parameters
+
+🟩 Arguments
+
+🟩 Single Parameter Functions
+
+🟩 Multiple Parameter Functions
+
+🟩 Parameter vs Argument
+
+🟩 Return Statement
+
+🟩 Return Flow
+
+🟩 Print vs Return
+
+🟩 Returning Numbers
+
+🟩 Returning Strings
+
+🟩 Returning Boolean Values
+
+🟩 Multiple Return Statements
+
+🟩 Function Chaining
+
+🟩 Return Output Prediction Practice
+
+⬜ Functions - Not Completed
+
+⬜ Local Variables
+
+⬜ Global Variables
+
+⬜ Variable Scope
+
+⬜ Default Arguments
+
+⬜ Positional Arguments
+
+⬜ Keyword Arguments
+
+⬜ Arbitrary Arguments (*args)
+
+⬜ Arbitrary Keyword Arguments (**kwargs)
+
+⬜ Returning Multiple Values
+
+⬜ Nested Functions
+
+⬜ Recursion
+
+⬜ Lambda Functions
+
+⬜ Built-in Functions
+
+⬜ Docstrings
+
+⬜ Function Practice Problems
+
+⬜ Function-Based Mini Projects
 ---
 
 ## Next Topics
 
-⬜ Functions
+
 
 ⬜ Dictionaries
 
