@@ -1,0 +1,29 @@
+# lambda functions ,using lambda to solve add ,mul,div,square and cube 
+
+square = lambda x: 2 * 9 * x * x * 10
+
+print(square(5))
+
+# cubing values using lambda functions 
+
+cube = lambda x: x * x * x
+
+print(cube(5))
+
+# squaring values using lambda functions 
+
+square = lambda x: x * x
+
+print(square(5))
+
+# add two values using lambda functions 
+
+add = lambda x , y : x + y
+
+print(add(7,5))
+
+# divide two values using lambda functions 
+
+div  = lambda x , y : x / y 
+
+print(div(10,20))
