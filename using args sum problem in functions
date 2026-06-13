@@ -1,0 +1,28 @@
+# using args sum problem in functions  :-
+
+def add(*args):
+
+    total = 0
+
+    for x in args:
+
+        total = total + x
+
+    print(total)
+
+add(10,20,30)
+add(20,30)
+add(40,50,50,70)
+
+# using args sum problem in functions  :-
+
+def add(*args):
+
+    total = 0
+
+    for x in args:
+        total = total + x
+
+    print(total)
+
+add(10,20)
