@@ -245,6 +245,8 @@ Tuples
 🟩 Functions - Completed
 
 
+
+
 🟩 What is a Function?
 
 🟩 Why Functions are Used
@@ -298,17 +300,11 @@ Tuples
 
 🟩 Keyword Arguments
 
+✅ *args
+
+✅ **kwargs
 
 
-⬜ Functions - Not Completed
-
-⬜ Arbitrary Arguments (*args)
-
-⬜ Arbitrary Keyword Arguments (**kwargs)
-
-⬜ Returning Multiple Values
-
-⬜ Nested Functions
 
 ⬜ Recursion
 
@@ -321,11 +317,11 @@ Tuples
 ⬜ Function Practice Problems
 
 ⬜ Function-Based Mini Projects
----
+
+
+
 
 ## Next Topics
-
-
 
 ⬜ Dictionaries
 
