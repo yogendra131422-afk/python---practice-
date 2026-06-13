@@ -1,0 +1,15 @@
+# find highest marks using function in **kwargs
+
+def highest_marks(**kwargs):
+
+    highest = 0
+
+    for x in kwargs.values():
+        if x > highest:
+            highest = x
+    print(highest)
+
+highest_marks(
+    maths = 20,
+    ss =    30,
+    )
