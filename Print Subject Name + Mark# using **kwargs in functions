@@ -1,0 +1,22 @@
+  # Print Subject Name + Mark# using **kwargs in functions 
+def report(**kwargs):
+
+    for subjects,marks in kwargs.items():
+        print(subjects, marks)
+
+report(
+    ss=90,
+    maths=80,
+    dg=70
+)
+
+def report(**kwargs):
+
+    for subject, mark in kwargs.items():
+        print(subject, mark)
+
+report(
+    math=90,
+    physics=80,
+    chemistry=95
+)
