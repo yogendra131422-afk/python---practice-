@@ -1,0 +1,29 @@
+# using *args solve largest and smallest problems 
+
+def find_max(*args):
+
+    maximum = 0 
+
+
+    for x in args:
+        if x > maximum:
+            maximum = x 
+
+            
+    print(maximum)
+
+find_max(10,20,30,40,60,50)
+
+# using *args to solve smallest probelm 
+
+def find_min(*args):
+
+    minimum = args[0]
+
+    for x in args:
+        if x < minimum:
+            minimum = x
+
+    print(minimum)
+
+find_min(10,20,30,40,60,50)
