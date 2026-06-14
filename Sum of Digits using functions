@@ -1,0 +1,13 @@
+# Sum of Digits
+
+def sum_digits():              # using functions 
+
+    print(1+2+3+4)
+
+sum_digits() 
+
+# using lambda functions and adding also .
+
+sum_digits = lambda a,b,c,d : a+b+c+d 
+
+print(sum_digits(1,2,3,4))
