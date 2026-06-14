@@ -1,0 +1,11 @@
+# largest of three numbers using args functions 
+
+def largest(*args):
+
+    largest = 0
+
+    for x in args:
+        if x > largest:
+            largest = x
+    print(largest)
+largest(10,20,30)
