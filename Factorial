@@ -1,0 +1,14 @@
+# Factorial
+
+factorial = lambda n: n*4*3*2*1          # using lambda functions
+
+print(factorial(5))
+
+# Factorial
+
+def factorial():                 # using functions
+
+    print(5*4*3*2*1)
+
+factorial()
+
