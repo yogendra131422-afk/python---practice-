@@ -1,0 +1,26 @@
+# students reprots using functions 
+
+def student_report(*marks):
+
+    total = 0
+    highest = 0
+    lowest = marks[0]
+
+
+    for x in marks:
+        total = total + x
+        if x > highest:
+            highest = x
+    print(total)
+    print(highest)
+
+    for x in marks:
+        if x < lowest:
+            lowest = x
+
+    print(lowest)
+
+    average = total /len(marks)
+    print(average)
+    
+student_report(10,20,30)
