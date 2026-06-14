@@ -1,0 +1,15 @@
+# problems in function concept  
+
+# check even or odd 
+
+check = lambda n : "even" if n % 2 == 0 else "odd"    
+
+print(check(7))                                    # using lambda functions 
+
+
+# largest of two numbers using lambda functions 
+
+largest = lambda n,m : n if n > m else m 
+
+print(largest(10,20))
+
