@@ -1,0 +1,62 @@
+# to add a key and value
+
+student = {                          # add
+    "name": "Yogi"
+}
+
+student["city"] = "Hyderabad"
+
+print(student)
+
+
+
+# to update a value in uses of key 
+
+student = {                           # update 
+    "name": "Yogi",
+    "age": 21
+}
+
+student["age"] = 22
+
+print(student)
+
+
+
+# get() output will come none , they ot come error
+
+student = {
+    "name": "Yogi",
+    "age": 21
+}
+
+print(student.get("city"))
+
+
+
+# type testing 
+
+student = {}
+
+print(type(student))
+
+
+
+ # to print all elemeents print(name)
+
+student = {
+    "name" : "yogi",
+    "name1" : "raji",
+    "age" : 19,
+    "age1" : 19
+}
+
+print(student)
+
+
+
+
+
+
+
+
