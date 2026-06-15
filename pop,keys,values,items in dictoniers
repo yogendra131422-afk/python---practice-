@@ -1,0 +1,25 @@
+ # pop opeartion
+
+student = {
+    "name": "Yogi",
+    "age": 21,
+    "marks": 90
+}                            
+
+x = student.pop("marks")
+
+print(student)
+
+# to print only keys ,only values, and only items .
+
+student = {
+    "name": "Yogi",
+    "age": 21,
+    "marks": 90
+}             
+
+print(student.keys())                    # to print only keys all keys will print 
+
+print(student.values())                  # to print only values all values will print 
+
+print(student.items())                   # to print key value pairs in the dictionary 
