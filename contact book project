@@ -1,0 +1,84 @@
+contacts = {}        # ee line endhuku contact book ante contacts nii store cheyali kadha andhuku .endhuku empty ante present contacts emii levu purpos
+
+def add_contact():      # ee line endhuku manaki user task loo add ,search ,update ,delect contact ani vundhi andhuke prtahiokati differnt functiosn used
+    name = input("Enter Name: ")   # contact add cheyali ate name kavali ame = input("enter name: ") ea 
+    phone = input("Enter Phone Number: ")   # next contact number kaval kadha phone = int endhuku ante numbers loo mention chetunam kadha ,
+
+    contacts[name] = phone
+
+    print("Contact Added Successfully")          # dictinoory loo contact add ayindhi anni user ki chupistundhhi ,
+
+
+def search_contact():
+    name = input("Enter Name to Search: ")
+
+    if name in contacts:
+        print("Phone Number:", contacts[name])
+    else:
+        print("Contact Not Found")
+
+
+def update_contact():                           # ekada manam contact nii uppdate chestunam kadha andhukosam if name in contact aii search chestam .
+    name = input("Enter Name to Update: ")       # aa contcat akada vunte true , ok epudu update cehyali new umber nii , andhoksamee new-phoe 
+                                                 # andhukosame kadha new_phone = input("enter new phone number: ")
+    if name in contacts:         
+        new_phone = input("Enter New Phone Number: ")
+        contacts[name] =  new_phone               # update kavali kadha like add kavali kadha andhuksame manam contact[name] = new_phone epudu updted
+        print("Contact Updated Successfully!")      # okavela akada contact lekunte andhukosame purpose uodate or not found 
+    else:
+        print("Contact Not Found")
+
+
+def delete_contact():
+    name = input("Enter Name to Delete: ")
+
+    if name in contacts:
+        del contacts[name]
+        print("Contact Deleted Successfully!")
+    else:
+        print("Contact Not Found")
+
+
+def view_contacts():           # contact enni vunayo chududadaniki use chetsam manam 
+    if len(contacts) == 0:      # contacts length thelusukvali kadha count pupose in contacts . contacts 0 vunte o contact avaible kanni conatct vunyi kadha andhukosam false and else condition 
+        print("No Contacts Available")
+    else:
+        print("\n--- CONTACT LIST ---")       # printed 
+
+        for name, phone in contacts.items():   # epudu oka contact vunte print avudhi adhe ekuva contacts vunte ella ,andhukosame for name,phone in contacts>itesm(): epudu rendu ela order wise print avuthayi ,
+            print(name, ":", phone)
+
+
+while True:
+
+    print("\n===== CONTACT BOOK =====")           # just output proper gaa kanipinchadaniki edhi use chestam .
+    print("1. Add Contact")                   # print("1.add contact") print("2.search contcat") print("3. update contact") ela ok util print("6. exit")
+    print("2. Search Contact")
+    print("3. Update Contact")
+    print("4. Delete Contact")               # purpose user kii options chupiinchdam
+    print("5. View Contacts")
+    print("6. Exit")
+
+    choice = input("Enter Choice: ")                 # suppose user choise
+
+    if choice == "1":                                 # oka resturn kii velithe mean order vundhi anuko akda choicse kosam , 
+        add_contact()                 # same if  choice == "1": add_contact() 
+
+    elif choice == "2":
+        search_contact()
+
+    elif choice == "3":
+        update_contact()
+
+    elif choice == "4":
+        delete_contact()
+
+    elif choice == "5":
+        view_contacts()
+
+    elif choice == "6":
+        print("Thank You!")
+        break
+
+    else:
+        print("Invalid Choice")
