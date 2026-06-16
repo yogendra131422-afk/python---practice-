@@ -1,0 +1,143 @@
+# ===== STUDENT MANAGEMENT SYSTEM =====
+ # Add Student
+
+ # View Students
+
+ # Search Student
+
+ # Update Student
+
+ # View Students
+
+ # Delete Student
+
+ # View Students
+
+students = {}
+
+
+def add_student():
+
+    roll = input("Enter Roll Number: ")
+
+    name = input("Enter Name: ")
+
+    marks = int(input("Enter Marks: "))
+
+    students[roll] = {
+        "name": name,
+        "marks": marks
+    }
+
+    print("Student Added Successfully!")
+
+
+def search_students():
+
+    roll = input("Enter Roll Number: ")
+
+    if roll in students:
+
+        print("Roll Number :", roll)
+        print("Name :", students[roll]["name"])
+        print("Marks :", students[roll]["marks"])
+
+    else:
+
+        print("Student Not Found")
+
+
+def update_students():
+
+    roll = input("Enter Roll Number: ")
+
+    if roll in students:
+
+        new_name = input("Enter New Name: ")
+
+        new_marks = int(input("Enter New Marks: "))
+
+        students[roll]["name"] = new_name
+
+        students[roll]["marks"] = new_marks
+
+        print("Student Updated Successfully!")
+
+    else:
+
+        print("Student Not Found")
+
+
+def delete_students():
+
+    roll = input("Enter Roll Number: ")
+
+    if roll in students:
+
+        del students[roll]
+
+        print("Student Deleted Successfully!")
+
+    else:
+
+        print("Student Not Found")
+
+
+def view_students():
+
+    if len(students) == 0:
+
+        print("No Students Available")
+
+    else:
+
+        print("\n--- STUDENT LIST ---")
+
+        for roll, student in students.items():
+
+            print("Roll Number :", roll)
+            print("Name :", student["name"])
+            print("Marks :", student["marks"])
+            print()
+
+
+while True:
+
+    print("\n===== STUDENT MANAGEMENT SYSTEM =====")
+    print("1. Add Student")
+    print("2. Search Student")
+    print("3. Update Student")
+    print("4. Delete Student")
+    print("5. View Students")
+    print("6. Exit")
+
+    choice = input("Enter Your Choice: ")
+
+    if choice == "1":
+
+        add_student()
+
+    elif choice == "2":
+
+        search_students()
+
+    elif choice == "3":
+
+        update_students()
+
+    elif choice == "4":
+
+        delete_students()
+
+    elif choice == "5":
+
+        view_students()
+
+    elif choice == "6":
+
+        print("Thank You!")
+        break
+
+    else:
+
+        print("Invalid Choice")
