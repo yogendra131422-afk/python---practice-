@@ -1,0 +1,126 @@
+# ===== EMPLOYEE MANAGEMENT SYSTEM =====
+
+employees = {}
+
+
+def add_employee():
+
+    employee_id = input("Enter Employee ID: ")
+
+    name = input("Enter Employee Name: ")
+
+    salary = int(input("Enter Employee Salary: "))
+
+    employees[employee_id] = {
+        "name": name,
+        "salary": salary
+    }
+
+    print("Employee Added Successfully!")
+
+
+def search_employee():
+
+    employee_id = input("Enter Employee ID: ")
+
+    if employee_id in employees:
+
+        print("Employee ID :", employee_id)
+        print("Name :", employees[employee_id]["name"])
+        print("Salary :", employees[employee_id]["salary"])
+
+    else:
+
+        print("Employee Not Found")
+
+
+def update_employee():
+
+    employee_id = input("Enter Employee ID: ")
+
+    if employee_id in employees:
+
+        new_salary = int(input("Enter New Salary: "))
+
+        employees[employee_id]["salary"] = new_salary
+
+        print("Salary Updated Successfully!")
+
+    else:
+
+        print("Employee Not Found")
+
+
+def delete_employee():
+
+    employee_id = input("Enter Employee ID: ")
+
+    if employee_id in employees:
+
+        del employees[employee_id]
+
+        print("Employee Deleted Successfully!")
+
+    else:
+
+        print("Employee Not Found")
+
+
+def view_employees():
+
+    if len(employees) == 0:
+
+        print("No Employees Available")
+
+    else:
+
+        print("\n--- EMPLOYEE LIST ---")
+
+        for employee_id, employee in employees.items():
+
+            print("Employee ID :", employee_id)
+            print("Name :", employee["name"])
+            print("Salary :", employee["salary"])
+            print()
+
+
+while True:
+
+    print("\n===== EMPLOYEE MANAGEMENT SYSTEM =====")
+    print("1. Add Employee")
+    print("2. Search Employee")
+    print("3. Update Salary")
+    print("4. Delete Employee")
+    print("5. View Employees")
+    print("6. Exit")
+
+    choice = input("Enter Your Choice: ")
+
+    if choice == "1":
+
+        add_employee()
+
+    elif choice == "2":
+
+        search_employee()
+
+    elif choice == "3":
+
+        update_employee()
+
+    elif choice == "4":
+
+        delete_employee()
+
+    elif choice == "5":
+
+        view_employees()
+
+    elif choice == "6":
+
+        print("Thank You!")
+        break
+
+    else:
+
+        print("Invalid Choice")
