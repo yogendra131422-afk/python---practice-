@@ -1,0 +1,127 @@
+# =====# ===== INVENTORY MANAGEMENT SYSTEM =====
+
+products = {}
+
+
+def add_product():
+
+    product_id = input("Enter Product ID: ")
+
+    product_name = input("Enter Product Name: ")
+
+    quantity = int(input("Enter Quantity: "))
+
+    products[product_id] = {
+        "name": product_name,
+        "quantity": quantity
+    }
+
+    print("Product Added Successfully!")
+
+
+def search_product():
+
+    product_id = input("Enter Product ID: ")
+
+    if product_id in products:
+
+        print("Product ID :", product_id)
+        print("Product Name :", products[product_id]["name"])
+        print("Quantity :", products[product_id]["quantity"])
+
+    else:
+
+        print("Product Not Found")
+
+
+def update_product():
+
+    product_id = input("Enter Product ID: ")
+
+    if product_id in products:
+
+        new_quantity = int(input("Enter New Quantity: "))
+
+        products[product_id]["quantity"] = new_quantity
+
+        print("Quantity Updated Successfully!")
+
+    else:
+
+        print("Product Not Found")
+
+
+def delete_product():
+
+    product_id = input("Enter Product ID: ")
+
+    if product_id in products:
+
+        del products[product_id]
+
+        print("Product Deleted Successfully!")
+
+    else:
+
+        print("Product Not Found")
+
+
+def view_products():
+
+    if len(products) == 0:
+
+        print("No Products Available")
+
+    else:
+
+        print("\n--- PRODUCT LIST ---")
+
+        for product_id, product in products.items():
+
+            print("Product ID :", product_id)
+            print("Product Name :", product["name"])
+            print("Quantity :", product["quantity"])
+            print()
+
+
+while True:
+
+    print("\n===== INVENTORY MANAGEMENT SYSTEM =====")
+    print("1. Add Product")
+    print("2. Search Product")
+    print("3. Update Quantity")
+    print("4. Delete Product")
+    print("5. View Products")
+    print("6. Exit")
+
+    choice = input("Enter Your Choice: ")
+
+    if choice == "1":
+
+        add_product()
+
+    elif choice == "2":
+
+        search_product()
+
+    elif choice == "3":
+
+        update_product()
+
+    elif choice == "4":
+
+        delete_product()
+
+    elif choice == "5":
+
+        view_products()
+
+    elif choice == "6":
+
+        print("Thank You!")
+        break
+
+    else:
+
+        print("Invalid Choice")=====
+
