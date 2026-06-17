@@ -17,8 +17,11 @@
 ✅ Operators
 
 - ✅ Arithmetic Operators
+- 
 - ✅ Comparison Operators
+- 
 - ✅ Logical Operators
+- 
 - ✅ Assignment Operators
 
 ---
@@ -240,12 +243,7 @@ Tuples
 
 
 
-
-
 🟩 Functions - Completed
-
-
-
 
 🟩 What is a Function?
 
@@ -257,7 +255,6 @@ Tuples
 
 🟩 Function Execution Flow
 
-
 🟩 Parameters
 
 🟩 Arguments
@@ -267,7 +264,6 @@ Tuples
 🟩 Multiple Parameter Functions
 
 🟩 Parameter vs Argument
-
 
 🟩 Return Statement
 
@@ -304,26 +300,64 @@ Tuples
 
 ✅ **kwargs
 
+✅ Lambda Functions
 
+✅ Function Practice Problems
 
-⬜ Recursion
+✅ Function-Based Mini Projects
 
-⬜ Lambda Functions
 
 ⬜ Built-in Functions
 
 ⬜ Docstrings
 
-⬜ Function Practice Problems
-
-⬜ Function-Based Mini Projects
 
 
+✅ Dictionary Introduction
+
+✅ Key-Value Pair Concept
+
+✅ Creating Dictionaries
+
+✅ Accessing Values
+
+✅ Adding Items
+
+✅ Updating Items
+
+✅ Deleting Items
+
+✅ pop()
+
+✅ popitem()
+
+✅ clear()
+
+✅ del
+
+✅ get()
+
+✅ keys()
+
+✅ values()
+
+✅ items()
+
+✅ Looping Through Dictionaries
+
+✅ Membership Operators
+
+✅ Nested Dictionaries
+
+✅ Contact Book projects
+
+✅ Student Management System projects 
+
+✅ Employee Management System  projects
 
 
-## Next Topics
 
-⬜ Dictionaries
+## Next 
 
 ⬜ File Handling
 
@@ -331,7 +365,7 @@ Tuples
 
 ⬜ Modules
 
-⬜ OOP
+⬜ OOPs
 
 ⬜ Recursion
 
@@ -340,65 +374,103 @@ Tuples
  DSA with Python
 
 ✅ DSA Introduction
+
 ✅ Algorithms
+
 ✅ Time Complexity
+
 ✅ Space Complexity
+
 ✅ Dry Run
 
 Array
+
 ✅ Array Introduction
+
 ✅ Array Representation
+
 ✅ Array Indexing
+
 ✅ Array Traversal
 
 ✅ Print Elements
+
 ✅ Sum of Array
+
 ✅ Maximum Element
+
 ✅ Minimum Element
+
 ✅ Average of Array
+
 ✅ Count Even Elements
+
 ✅ Count Odd Elements
 
 ✅ Array Access
+
 ✅ Array Update
+
 ✅ Array Insertion
+
 ✅ Array Deletion
 
 ✅ Linear Search
+
 ✅ First Occurrence
+
 ✅ Last Occurrence
+
 ✅ Count Occurrences
+
 ✅ Element Exists or Not
 
 ✅ Array Reversal
+
 ✅ Reverse Without Slicing
+
 ✅ Reverse Part of Array
 
 ⏳ Palindrome Array (skip for now)
+
 ⏳ Second Largest
+
 ⏳ Third Largest
 
 String  
 
 ✅ What is String
+
 ✅ Indexing
+
 ✅ Traversing
+
 ✅ Length
 
 ✅ Reverse (loop & slicing)
+
 ✅ Slicing
+
 ✅ String Comparison
+
 ✅ Concatenation
+
 ✅ Repetition
 
 ✅  strting functions upper(), lower(), replace(), count(), find(), strip(), split(), join()
 
 ✅ Reverse a String
+
 ✅ Palindrome Check
 
 ✅ Count Vowels
+
 ✅ Count Consonants
+
 ✅ Count Digits
+
 ✅ Count Spaces
-✅ Count Special Characters
+
+✅ Count SpecialCharacters
+
 ✅ Toggle Case
