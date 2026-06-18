@@ -1,0 +1,7 @@
+# file handling 
+
+bank_file = open("yogi.txt","w")
+
+bank_file.write("A0123")
+bank_file.close()
+print("succefully saved bank code")
