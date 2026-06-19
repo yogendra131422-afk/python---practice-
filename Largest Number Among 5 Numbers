@@ -1,0 +1,9 @@
+largest = int(input("Enter number 1: "))
+
+for i in range(4):
+    num = int(input("Enter number: "))
+
+    if num > largest:
+        largest = num
+
+print("Largest =", largest)
