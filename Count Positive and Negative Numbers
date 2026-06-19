@@ -1,0 +1,13 @@
+positive = 0
+negative = 0
+
+for i in range(5):
+    num = int(input("Enter number: "))
+
+    if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1
+
+print("Positive =", positive)
+print("Negative =", negative)
